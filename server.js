@@ -16,9 +16,8 @@ app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
 // Routes go here
-// ex. route- require("./routes/html-routes.js")(app);
 // ==========================================================
-
+require('./routes/html-routes.js')(app);
 // End of Routes 
 // ==========================================================
 
