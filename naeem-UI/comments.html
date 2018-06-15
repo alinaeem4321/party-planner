@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Party Planners</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <p class="navbar-brand">Your Reviews</p>
+            </div>
+        </div>
+    </nav>
+
+    <div class='container' id='form-container'>
+        <form>
+            <div class='form-group'>
+                <label for='name'>Your Name<small id="nameHelp" class="form-text text-muted"></small></label>
+                <input type="text" class='form-control reviewForm' id='name' placeholder=' Write your name here.'>
+            </div>
+            <div class='form-group'>
+                <label for='review'>Review</label>
+                <textarea class='form-control reviewForm' id='review' rows="3" placeholder='Write your review here !!'></textarea>
+            </div>
+            <button type='submit' id='btn'>Post My Review!</button>
+        </form>
+    </div>
+
+    <div class='container'>
+
+        <div class="footer">
+            <p>copywrite@PartyPlanners</p>
+            <Span3><button><a href="home.html"><div id="comments">Party Planners</div></button></span3>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
