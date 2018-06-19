@@ -1,0 +1,250 @@
+/*color scheme RED #F70025 LIGHT-ORANGE #F9A603 DARK-ORANGE #F25C00 WHITE #F7EFE2*/
+
+body {
+    background-color: #F7EFE2;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+a {
+    color: #F7EFE2;
+}
+
+.party-png {
+    width: 20%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    margin-bottom: 0px;
+}
+
+.info {
+    color: gray;
+    letter-spacing: -2px;
+}
+
+.page-footer {
+    background-color: #F25C00;
+    color: #F7EFE2;
+}
+
+.footer {
+    background-color: #F70025;
+    margin-bottom: 0px;
+    height: 60px;
+    color: #F7EFE2;
+}
+
+.nav-wrapper {
+    background-color: #F9A603;
+}
+
+.side-bar {
+    background-color: #F25C00;
+}
+
+.start-btn {
+    background-color: #F70025;
+}
+
+.start-btn:focus {
+    background-color: pink;
+}
+
+.start-btn:hover {
+    background-color: orange;
+}
+
+.sidebar-logo {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.side-bar-icon {
+    width: 20%;
+    margin: 10px 10px 5px 0px;
+}
+
+.main-div {
+    margin: 0px;
+}
+
+.center-div {
+    margin-bottom: 32px;
+}
+
+.brand-logo {
+    margin-left: 10px;
+}
+
+.has-parties {
+    margin-bottom: 30px;
+}
+
+#penelope-pop-up {
+    margin: 0;
+    padding-bottom: 0px;
+}
+
+.chat {
+    height: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+
+/* Chat containers */
+
+.chat-container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px 0px 3%;
+    width: 80%;
+}
+
+
+/* Darker chat container */
+
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+    margin-left: 18%;
+}
+
+.chat-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.chat-container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.chat-container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #999;
+}
+
+.index-logo {
+    max-height: 100%;
+    width: auto;
+}
+
+.card {
+    background-color: #F25C00;
+}
+
+#login-modal {
+    overflow: scroll;
+}
+
+#register-modal {
+    overflow: scroll;
+}
+
+.register-header {
+    color: #F7EFE2;
+}
+
+.modal-logo {
+    width: 110px;
+}
+
+.modal {
+    height: 100%;
+}
+
+
+/* label color */
+
+.input-field label {
+    color: #F7EFE2;
+}
+
+
+/* label focus color */
+
+.input-field input[type=text]:focus+label {
+    color: #F7EFE2;
+}
+
+
+/* label underline focus color */
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #F7EFE2;
+    box-shadow: 0 1px 0 0 #F7EFE2;
+}
+
+
+/* valid color */
+
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #F7EFE2;
+    box-shadow: 0 1px 0 0 #F7EFE2;
+}
+
+
+/* invalid color */
+
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #F7EFE2;
+    box-shadow: 0 1px 0 0 #F7EFE2;
+}
+
+
+/* icon prefix focus color */
+
+.input-field .prefix.active {
+    color: #F7EFE2;
+}
+
+.card-content {
+    background-color: #F70025;
+    margin-top: 70px;
+    height: 430px;
+    height: auto;
+    width: auto;
+    border-radius: 45px;
+}
+
+.carousel-img {
+    margin-top: 30px;
+}
+
+.card-title {
+    color: #f9a603;
+    font-size: 30px;
+    font-style: oblique;
+}

@@ -1,2 +1,148 @@
-<h1>Foobar</h1>
-<h2>Foo</h2>
+<main>
+        <nav>
+            <div class="nav-wrapper index-nav">
+                <img class="responsive-img index-logo" src="assets/img/index-logo.png" alt="Party Presto">
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a class="modal-trigger" href="#login-modal">Login</a></li>
+                    <li><a class="modal-trigger" href="#register-modal">Register</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col m12 align center">
+                    <div class="carousel">
+                        <!-- <div class="carousel-item card card1"> -->
+                        <div class="item active card1">
+                            <!-- <div class="card-content white-text"> -->
+                            <div class="card-content">
+                                <img class="carousel-img" alt="party" src="assets/img/icons/party1.png">
+                                <span class="card-title">Plan your party</span>
+                            </div>
+                            <div class="card-action">
+                            </div>
+                        </div>
+                        <div class="carousel-item card card2">
+                            <!-- <div class="card-content white-text"> -->
+                            <div class="card-content">
+                                <img class="carousel-img" alt="music" src="assets/img/icons/music.png">
+                                <span class="card-title">Make a playlist</span>
+                            </div>
+                            <div class="card-action">
+                            </div>
+                        </div>
+                        <div class="carousel-item card card3">
+                            <!-- <div class="card-content white-text"> -->
+                            <div class="card-content">
+                                <img class="carousel-img" alt="recipes" src="assets/img/icons/recipes.png">
+                                <span class="card-title">Get recipe ideas</span>
+                            </div>
+                            <div class="card-action">
+                            </div>
+                        </div>
+                        <div class="carousel-item card card4">
+                            <!-- <div class="card-content white-text"> -->
+                            <div class="card-content">
+                                <img class="carousel-img" alt="guests" src="assets/img/icons/guests.png">
+                                <span class="card-title">Invite Guests</span>
+                            </div>
+                            <div class="card-action">
+                            </div>
+                        </div>
+                        <div class="carousel-item card card5">
+                            <!-- <div class="card-content white-text"> -->
+                            <div class="card-content">
+                                <img class="carousel-img" alt="virtual Assistant" src="assets/img/icons/virtualAssistant.png">
+                                <span class="card-title">Penelope</span>
+                            </div>
+                            <div class="card-action">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m12 align center info">
+                    <h5>Party Presto is your one stop shop for planning your perfect party. With Party Presto you can invite your guests, pick your perfect playlist, and find great recipes and cocktails without having to leave our easy to use party planning
+                        interface. Once you've set up your account simply click the start party button, and our digital party planning assistant, Penelope will ask you a few questions about your party. Penelope will then give you suggestions based on
+                        your answers, so you can get to planning.
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer center">copyright © 2018 Party Presto</footer>
+
+    <div class="modal" id="login-modal">
+        <div class="row">
+            <div class="col m12 orange lighten-1">
+                <div class="modal-content">
+                    <div class="row">
+                        <form id="user-login-form" class="col m12 center">
+                            <img class="modal-logo" src="assets/img/logo.png" alt="Party Presto">
+                            <div class="row">
+                                <div class="col m3"></div>
+                                <div class="col m6 input-field">
+                                    <input type="text" id="login-username">
+                                    <label for="login-username">Username</label>
+                                </div>
+                                <div class="col m3"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col m3"></div>
+                                <div class="col m6 input-field">
+                                    <input type="password" id="login-password">
+                                    <label for="login-password">Password</label>
+                                </div>
+                                <div class="col m3"></div>
+                            </div>
+                            <div class="row center">
+                                <button type="submit" class="btn">Log In</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="register-modal">
+        <div class="row">
+            <div class="col m12 orange lighten-1">
+                <div class="modal-content">
+                    <div class="row">
+                        <form id="user-register-form" class="col m12 center">
+                            <h4 class="register-header">Register your new account!</h4>
+                            <div class="row">
+                                <div class="col m3"></div>
+                                <div class="col m6 input-field">
+                                    <input type="text" id="register-username">
+                                    <label for="register-username">Username</label>
+                                </div>
+                                <div class="col m3"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col m3"></div>
+                                <div class="col m6 input-field">
+                                    <input type="text" id="register-email">
+                                    <label for="register-email">Email Adress</label>
+                                </div>
+                                <div class="col m3"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col m3"></div>
+                                <div class="col m6 input-field">
+                                    <input type="password" id="register-password">
+                                    <label for="register-password">Password</label>
+                                </div>
+                                <div class="col m3"></div>
+                            </div>
+                            <div class="row center">
+                                <button type="submit" class="btn">Register</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
